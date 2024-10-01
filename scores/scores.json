@@ -5,9 +5,9 @@
       "FrScTe2": 1,
       "FrScTe3": 1,
       "FrScTe4": 1,
-      "FrScTe5": 0,
-      "FrScTe6": 0,
-      "FrScTe7": 0
+      "FrScTe5": 1,
+      "FrScTe6": 1,
+      "FrScTe7": 1
     }
   },
   "idToTestNameHash": {
@@ -29,7 +29,7 @@
     "From Scratch Tests Square - uses inheritance properly": "FrScTe7"
   },
   "humanReadable": {
-    "From Scratch Tests": "4/7",
-    "finalTestScore": "FINAL SCORE: 4/7"
+    "From Scratch Tests": "7/7",
+    "finalTestScore": "FINAL SCORE: 7/7"
   }
 }

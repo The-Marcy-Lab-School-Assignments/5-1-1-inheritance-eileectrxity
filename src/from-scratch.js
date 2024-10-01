@@ -29,9 +29,18 @@ class Rectangle extends Quadrilateral { //when the `extends` keyword is used, JS
  }
 };
 
-class Square {
 
-}
+
+//QUESTION 3: create a Square class that inherits from...someone- check tests to see who the direct parent is, and what args Square takes on each instance
+class Square extends Rectangle {
+  constructor(side1) {
+    super(side1, side1, side1, side1);
+ }
+
+  getDiagonal() {
+    return Math.sqrt(this.getArea() * 2); //more correct to invoke getArea through this.getArea() rather than super.getArea() as it makes it more clear that an instance of child class Square is invoking the inherited method
+ }
+};
 
 /* Be creative with this one! */
 class Person {
