@@ -2,9 +2,9 @@
   "testScores": {
     "From Scratch Tests": {
       "FrScTe1": 1,
-      "FrScTe2": 0,
-      "FrScTe3": 0,
-      "FrScTe4": 0,
+      "FrScTe2": 1,
+      "FrScTe3": 1,
+      "FrScTe4": 1,
       "FrScTe5": 0,
       "FrScTe6": 0,
       "FrScTe7": 0
@@ -29,7 +29,7 @@
     "From Scratch Tests Square - uses inheritance properly": "FrScTe7"
   },
   "humanReadable": {
-    "From Scratch Tests": "1/7",
-    "finalTestScore": "FINAL SCORE: 1/7"
+    "From Scratch Tests": "4/7",
+    "finalTestScore": "FINAL SCORE: 4/7"
   }
 }

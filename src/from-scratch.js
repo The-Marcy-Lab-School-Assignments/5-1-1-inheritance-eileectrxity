@@ -14,9 +14,20 @@ class Quadrilateral {
  }
 };
 
-class Rectangle {
+//QUESTION 2: create a Rectangle class that inherits from the Quadrilateral class- check how its args differ and how the child class should deal with the parent class
+class Rectangle extends Quadrilateral { //when the `extends` keyword is used, JS begins the process a child subclass inherits all properties and methods from the parent class
+  constructor(side1, side2) {
+    super(side1, side2, side1, side2); //notice how we can override the constructor params 
+ }
 
-}
+  // getPerimeter() { //not necessary to redefine method as getPerimeter() is already inherited in the prototype chain
+  //   return super.getPerimeter(); //reason it's not necessary is that it's best practice to only define an inherited method in a child class if we intend to override it to add addt'l behavior
+  // }
+
+  getArea() {
+    return this.side1 * this.side2;
+ }
+};
 
 class Square {
 
